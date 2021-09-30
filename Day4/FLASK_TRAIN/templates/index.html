@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="static\Home.css">
+    </html>
+        <body style="background-color:lightpink">
+        <form method="POST" action="/predict">
+            <h1 class="first" style="margin-top:5px;">Please Fill</h1>
+            <p>Enter Name:
+                <input type="text" id="name" placeholder="Enter.."  name="a" required>
+            </p>
+            <p>Enter Email:
+                <input type="email" placeholder="Enter.." name="s" required>
+            </p>
+            <center>
+            <input type="submit" value="SUBMIT" onclick="done()">
+            <input type="reset" value="RESET">
+            </center>
+        </form>
+        <script>
+            function done()
+            {
+                var name=document.getElementById("name").value;
+                alert("Form submitted by:"+name);
+            }
+        </script>
+        </body>
+</html>

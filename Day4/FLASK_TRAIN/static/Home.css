@@ -1,0 +1,35 @@
+.first {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(216, 150, 65);
+}
+p {
+  padding: 5px;
+}
+form {
+  padding: 15px;
+  border-style: solid;
+  width: 300px;
+  margin: auto;
+  border-color: darkgoldenrod;
+  border-radius: 10px 10px;
+  margin-top: 200px;
+  box-shadow: 6px 6px 6px black;
+  background-color: wheat;
+}
+
+.second {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+span {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.third {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
